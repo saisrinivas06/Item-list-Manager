@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+}
+
+/* App Container */
+.app-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #ffffff, #e3f2fd);
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Header */
+.app-header h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.app-header p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Input Section */
+.input-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.input-box:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.add-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+/* Item List */
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  background: #e3f2fd;
+  color: #333;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app-container {
+    margin: 20px;
+  }
+
+  .input-box {
+    flex: 1;
+    padding: 8px;
+  }
+
+  .add-button {
+    padding: 8px 16px;
+  }
+}
