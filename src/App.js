@@ -23,7 +23,7 @@ function App() {
     <div className="app-container">
       <header className="app-header">
         <h1>Item List Manager</h1>
-        <p>Organize your items efficiently with a clean interface!</p>
+        <p>Organize your items efficiently!!</p>
       </header>
       <div className="input-section">
         <input
